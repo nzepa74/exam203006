@@ -85,7 +85,7 @@
                                                 </tr>
                                                 <tr class="hidden" id="businessMathematicsHidden">
                                                     <td>Business Mathematics</td>
-                                                    <td id="businessMathematics hidden"></td>
+                                                    <td id="businessMathematics"></td>
                                                 </tr>
                                                 <tr class="hidden" id="biologyHidden">
                                                     <td>Biology</td>

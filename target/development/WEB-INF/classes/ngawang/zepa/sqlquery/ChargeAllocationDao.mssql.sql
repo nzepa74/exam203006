@@ -21,6 +21,7 @@ ChargeAllocationDao.getAutoSerialSecondary = SELECT CONVERT(RIGHT(t.tpnSecondary
                                               AND SUBSTRING(t.tpnSecondary,5,2)=:dayNumber \
                                               ORDER BY RIGHT(t.tpnSecondary,4) DESC LIMIT 1
 
+
 ChargeAllocationDao.getStudentDetail = SELECT indexNo, school,studentName,sex,cid ,stream,mediaStudies , \
                                         evs ,agriculture ,businessMathematics , \
                                         biology ,computerStudies ,physics ,chemistry , \
